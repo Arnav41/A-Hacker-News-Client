@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&display=swap");
+
+html,
+* {
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font: 16px Courier;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    font: 16px Courier;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+}
+
+nav h1{
+    margin: 20px;
+    font-size: 60px;
+    text-shadow: 1px 1px 9px rgb(9, 255, 0);
+    margin-top: 20px;
+    
+}
+nav .info-icon {
+    float: right;
+    font-size: 40px;
+    margin-top: -80px;
+    margin-right: 10px;
+    color: white;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-posts {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-post {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+}
+
+.blog-title {
+    text-shadow: 0.1px 0.1px 2px rgb(9, 255, 0);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
