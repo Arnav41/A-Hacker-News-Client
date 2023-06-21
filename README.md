@@ -12,6 +12,5 @@ A simple and fancy HackerNews client built using HTML, CSS, and JS. Stay up-to-d
    ```bash
    git clone https://github.com/your-username/hackernews-client.git ```
 2. Navigate to the project directory
-   ```bash cd hackernews-client
-```
+   ```bash cd hackernews-client```
 
