@@ -2,7 +2,6 @@
 
 html,
 * {
-    overflow-y: hidden;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -31,7 +30,7 @@ nav h1{
 }
 nav .info-icon {
     float: right;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: -80px;
     margin-right: 10px;
     color: white;
