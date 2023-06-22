@@ -3,7 +3,7 @@ function fetchHackerNews() {
     return fetch('https://hacker-news.firebaseio.com/v0/topstories.json')
         .then(response => response.json())
         .then(data => {
-            const topStories = data.slice(0, 10); // Fetching only the top 10 stories
+            const topStories = data.slice(0, 12); // Fetching only the top 10 stories
             const storyPromises = topStories.map(storyId =>
                 fetch(`https://hacker-news.firebaseio.com/v0/item/${storyId}.json`)
                     .then(response => response.json())
