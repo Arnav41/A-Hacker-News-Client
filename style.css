@@ -31,6 +31,7 @@ nav h1{
     
 }
 nav .info-icon {
+    box-shadow: 0 0 0 5px rgba(255, 0, 0, 0.3);
     border: 1px rgb(238, 238, 238) solid;
     border-radius: 30%;
     background-size: cover;
