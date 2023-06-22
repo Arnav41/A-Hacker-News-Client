@@ -42,7 +42,7 @@ nav .info-icon {
     height: 70px;
     background-position: 10px 1px 10px;
     margin-top: -80px;
-    margin-right: 10px;
+    margin-right: 40px;
     color: white;
 }
 .blog-content {
@@ -71,13 +71,16 @@ nav .info-icon {
 
 /* Hide the default scrollbar */
 ::-webkit-scrollbar {
+    
     width: 10px;
 }
 
-::-webkit-scrollbar-track {
-    background-color: rgb(120, 255, 122);
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgb(100, 132, 100);
 }
 ::-webkit-scrollbar-thumb:active {
-    background-color: rgb(210, 210, 210);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 10px white;
 }
