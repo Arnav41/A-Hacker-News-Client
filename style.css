@@ -18,15 +18,17 @@ body {
     font: 16px Courier;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: "Rajdhani", sans-serif;
+    
     color: white;
 }
 nav h1{
+    font-family: "Rajdhani", sans-serif;
     margin: 20px;
     font-size: 60px;
     font-style: italic;
+    font-weight: bold;
     color: rgb(251, 251, 251);
-    text-shadow: 2px 2px 4px #0f0, 4px 4px 8px #0f0, 6px 6px 10px #0f0, 8px 8px 12px #0f0, 10px 10px 14px #0f0;
+    text-shadow: 2px 2px 4px #0f0, 2px 2px 8px #0f0, 3px 3px 10px #0f0, 4px 4px 12px #0f0, 10px 10px 14px #0f0;
     letter-spacing: 4px;
     
 }
