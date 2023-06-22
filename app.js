@@ -1,9 +1,8 @@
-
 function fetchHackerNews() {
     return fetch('https://hacker-news.firebaseio.com/v0/topstories.json')
         .then(response => response.json())
         .then(data => {
-            const topStories = data.slice(0, 20); // Fetching only the top 20 stories
+            const topStories = data.slice(0, 20);
             const storyPromises = topStories.map(storyId =>
                 fetch(`https://hacker-news.firebaseio.com/v0/item/${storyId}.json`)
                     .then(response => response.json())
@@ -30,6 +29,5 @@ function displayHackerNews() {
         });
     });
 }
-
 
 displayHackerNews();
