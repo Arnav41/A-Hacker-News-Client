@@ -24,6 +24,7 @@ function displayHackerNews() {
             blogPostElement.classList.add('blog-post');
             blogPostElement.innerHTML = `
           <h2 class="blog-title"><a href="${story.url}">Visit>> </a>${story.title}</h2>
+          <p class="blog-author">  -${story.by}</p>
         `;
             blogPostsContainer.appendChild(blogPostElement);
         });
