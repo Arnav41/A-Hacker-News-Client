@@ -4,6 +4,7 @@ A simple and fancy HackerNews client built using HTML, CSS, and JS. Stay up-to-d
 
 ## 	🔗 Link
 ```bash
+   heckernewz.netlify.app
 ```
 
 ## ⚙️ Installation
